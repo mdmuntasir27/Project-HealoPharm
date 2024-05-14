@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="appointment_dReg_input.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's RegNo Input</title>
+</head>
+<body>
+    <h3 class="error-message">Sorry! Please enter Patient's ID and Doctor's ID carefully!</h3>
+    <div class="container">
+        <h2>Enter your Registration No</h2>
+        <form action="appointment_doc_side.php" method="post">
+            <div class="input-group">
+                <label for="d_reg_no">Reg. No:</label>
+                <input type="text" id="id" name="d_reg_no" required>
+            </div>
+            <button type="submit">Show consultation list</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+html, body {
+    background-color: #038ab0;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-style {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: green;
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    background-color: #32d1fd; /* Background color */
+    border: 0px solid #ccc; /* Border */
+    border-radius: 50px; /* Border radius for rounded corners */
+    padding: 150px; /* Padding inside the div */
+    box-shadow: 5px 5px 12.5px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

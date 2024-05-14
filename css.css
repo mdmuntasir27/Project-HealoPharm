@@ -1,0 +1,188 @@
+/* Style for the navbar */
+.navbar {
+  background-color: #c2d4e5;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .image {
+  flex: 0 0 auto; /* Prevent the logo from stretching */
+}
+
+.navbar .logo {
+  height: 150px; /* Adjust the height of the logo as needed */
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+/* Style for the showcase section */
+.showcase {
+  background-color: #ffffff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.showcase h1 {
+  font-size: 60px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.showcase input[type="password"] {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.showcase input[type="submit"] {
+  background-color: #00ff62;
+  color: #0d3d19;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style for the stats section */
+.stats {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+/* Flex container for stats */
+.stats .flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+/* Style for individual stat cards */
+.stat {
+  flex: 1; /* Each stat card occupies equal space */
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the title of each stat */
+.stat .title {
+  color: #333333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Style for the text of each stat */
+.stat .text {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Style for the testimonials section */
+.testimonials {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+/* Style for the testimonial grid */
+.testimonial.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Style for individual testimonial cards */
+.testimonial .card {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
+                7px  7px 20px rgba(0, 0, 0, 0.2)
+}
+
+/* Style for the circle image container */
+.circle {
+  position: relative;
+  top: -30px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 10px;
+}
+
+/* Style for the testimonial name */
+.testimonial h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Style for the testimonial text */
+.testimonial p {
+  color: #281d1d;
+  font-size: 16px;
+  line-height: 1.6;
+}
+ /* CSS for footer */
+ footer {
+  background-color: #c2d4e5;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .copyright h1 {
+  margin: 0;
+}
+
+footer .links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .links ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer .links ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+footer .profiles a {
+  color: #333333;
+  margin-right: 10px;
+}
+
+footer .profiles a:hover {
+  color: #007bff;
+}
