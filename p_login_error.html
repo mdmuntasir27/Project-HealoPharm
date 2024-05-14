@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="p_login_error.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Login</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Patient Login</h2>
+        <form action="p_login.php" method="post">
+            <div class="input-group">
+                <label for="id">Patient ID:</label>
+                <input type="text" id="id" name="id" required>
+            </div>
+            <div class="input-group">
+                <label for="p_pass">Password:</label>
+                <input type="password" id="password" name="p_pass" required>
+            </div>
+            <button type="submit">Login</button>
+            <div class="error-message">
+                <p>Your Patient ID or Password is incorrect. Try again!</p>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>

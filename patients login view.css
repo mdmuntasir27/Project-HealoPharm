@@ -1,0 +1,157 @@
+/* CSS for navbar */
+.navbar {
+  background-color: #c2d4e5;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .image {
+  flex: 0 0 auto; /* Prevent the logo from stretching */
+}
+
+.navbar .logo {
+  height: 150px; /* Adjust the height of the logo as needed */
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+  
+/* CSS for dashboard section */
+  .dashboard {
+    padding: 50px;
+  }
+  
+  .dashboard h1 {
+    color: #333333;
+    text-align: center;
+    font-size: 40px;
+      
+  /* CSS for footer */
+  footer {
+    background-color: #c2d4e5;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer .copyright h1 {
+    margin: 0;
+  }
+  
+  footer .links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer .links ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  footer .links ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  footer .profiles a {
+    color: #333333;
+    margin-right: 10px;
+  }
+  
+  footer .profiles a:hover {
+    color: #007bff;
+  }
+  
+    margin-bottom: 30px;
+  }
+  
+  .appointment, .services {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+  
+  .button {
+    background-color: #0bcc25;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 1.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #043017;
+  }
+  
+  /* CSS for footer */
+  footer {
+    background-color: #c2d4e5;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer .copyright h1 {
+    margin: 0;
+  }
+  
+  footer .links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer .links ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  footer .links ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  footer .profiles a {
+    color: #333333;
+    margin-right: 10px;
+  }
+  
+  footer .profiles a:hover {
+    color: #007bff;
+  }
+  
