@@ -1,0 +1,35 @@
+body {
+    background-color: #90cbff;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #0c8bfa;
+}
+h1 {
+    color: #000501;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: #000803;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.login-button {
+    background-color: #02bc1e; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+/* Hover effect */
+.login-button:hover {
+    background-color: #028633; 
+}
