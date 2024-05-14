@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="p_login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambulance</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Ambulance Service</h2>
+        <form action="ambulance_table_gen.php" method="post">
+            <div class="input-group">
+                <label for="p_id">Patient ID:</label>
+                <input type="text" id="id" name="p_id" required>
+            </div>
+            <button type="submit">Show data</button>
+            <p class="error-message">Invalid patient id. Please try again!</p>
+        </form>
+    </div>    
+</body>
+</html>
